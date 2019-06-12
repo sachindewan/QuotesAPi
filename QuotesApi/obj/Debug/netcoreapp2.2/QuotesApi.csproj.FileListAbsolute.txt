@@ -3,7 +3,6 @@ D:\MyStuff\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.runtimeconfig.j
 D:\MyStuff\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.runtimeconfig.dev.json
 D:\MyStuff\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.dll
 D:\MyStuff\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.pdb
-D:\MyStuff\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.csprojAssemblyReference.cache
 D:\MyStuff\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.csproj.CoreCompileInputs.cache
 D:\MyStuff\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.RazorAssemblyInfo.cache
 D:\MyStuff\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ D:\MyStuff\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.AssemblyInfo.cs
 D:\MyStuff\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.RazorTargetAssemblyInfo.cache
 D:\MyStuff\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.dll
 D:\MyStuff\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.pdb
+D:\MyStuff\QuotesAPi\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.csprojAssemblyReference.cache
