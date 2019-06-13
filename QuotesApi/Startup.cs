@@ -29,7 +29,7 @@ namespace QuotesApi
                 options.Filters.Add(typeof(ApiValidationFilterAttribute));
             }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2).ConfigureApiBehaviorOptions(options =>
             {
-                options.SuppressModelStateInvalidFilter = true;
+                options.SuppressModelStateInvalidFilter = true; // by default with 2.2 and latest varsion valdatePeroblemFilter excuted with machine readable error format . we should suppress model state invalid filter to enable custom action filter execute.
             }).AddXmlSerializerFormatters();
             services.Configure<RouteOptions>(options => options.ConstraintMap.Add("allowedgods", typeof(OnlyGodsConstraint)));
             services.AddDbContext<QuotesDbContext>(options => options.UseSqlServer(@"Data Source = sachinkumar06; Initial Catalog = Quotes;Trusted_Connection=True"));
@@ -50,8 +50,8 @@ namespace QuotesApi
             }
             //app.UseExceptionHandler("/api/errors/500");
             // Handles non - success status codes with empty body
-            //app.UseStatusCodePagesWithReExecute("/api/errors/{0}");
-            //quotesDbContext.Database.EnsureCreated();
+            //app.UseStatusCodePagesWithReExecute("/api/errors/{0}"); // to handle http status code errors like 404 (not found) 500 (internal sever error)
+            //quotesDbContext.Database.EnsureCreated();  //  use this when you are sure that once database created never changed.
             app.UseHttpsRedirection();
             app.ConfigureCustomExceptionMiddleware();
             app.UseMvc();
