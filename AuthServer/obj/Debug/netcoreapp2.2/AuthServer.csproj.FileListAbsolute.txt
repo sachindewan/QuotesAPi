@@ -1,0 +1,14 @@
+D:\MyStuff\QuotesAPi\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.deps.json
+D:\MyStuff\QuotesAPi\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.runtimeconfig.json
+D:\MyStuff\QuotesAPi\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.runtimeconfig.dev.json
+D:\MyStuff\QuotesAPi\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.dll
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.csproj.CoreCompileInputs.cache
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.RazorAssemblyInfo.cache
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.RazorAssemblyInfo.cs
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.AssemblyInfoInputs.cache
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.AssemblyInfo.cs
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.RazorTargetAssemblyInfo.cache
+D:\MyStuff\QuotesAPi\AuthServer\bin\Debug\netcoreapp2.2\AuthServer.pdb
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.dll
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.pdb
+D:\MyStuff\QuotesAPi\AuthServer\obj\Debug\netcoreapp2.2\AuthServer.csprojAssemblyReference.cache

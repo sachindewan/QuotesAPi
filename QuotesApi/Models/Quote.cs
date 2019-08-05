@@ -23,5 +23,6 @@ namespace QuotesApi.Models
         public string Type { get; set; }
         [Required]
         public DateTime CreateTime { get; set; }
+        public string UserId { get; set; }
     }
 }

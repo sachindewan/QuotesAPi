@@ -25,15 +25,25 @@ namespace QuotesApi.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Author");
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasMaxLength(50);
 
                     b.Property<DateTime>("CreateTime");
 
-                    b.Property<string>("Description");
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500);
 
-                    b.Property<string>("Title");
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
-                    b.Property<string>("Type");
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasMaxLength(10);
+
+                    b.Property<string>("UserId");
 
                     b.HasKey("Id");
 

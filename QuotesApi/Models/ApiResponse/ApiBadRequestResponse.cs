@@ -21,5 +21,9 @@ namespace QuotesApi.Models.ApiResponse
             Errors = modelState.SelectMany(x => x.Value.Errors)
                 .Select(x => x.ErrorMessage).ToArray();
         }
+        public ApiBadRequestResponse(int statusCode, string message = null):base(statusCode, message)
+        {
+
+        }
     }
 }
